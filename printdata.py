@@ -1,14 +1,11 @@
 import base64
 
-file = open("data/abc/85979.data" , 'rb')
+file = open("data/abc/33803.data" , 'r')
 string = file.read(-1)
-print "file read = %s" % string
+file.close()
+# print "file read = %s" % string
 s = base64.b64decode(string)
 print "Base64 decode = ",s
-
-file.close()
-
-
 
 
 
