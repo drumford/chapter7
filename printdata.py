@@ -1,12 +1,10 @@
-import decimal
+import base64
 
-file = open("data/abc/8344.data" , 'rb')
+file = open("data/abc/85979.data" , 'rb')
 string = file.read(-1)
 print "file read = %s" % string
-s = string[0]
-h = int(decimal(s))
-d = string[1]
-print h,d
+s = base64.b64decode(string)
+print "Base64 decode = ",s
 
 file.close()
 
