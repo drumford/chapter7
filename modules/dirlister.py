@@ -4,6 +4,5 @@ def run(**args):
     
     files = os.listdir("/")
     print "[*] In dirlister module."
-    files2 = "DirLister = " + files
     
-    return str(files2)
+    return str(files)
