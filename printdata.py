@@ -1,6 +1,6 @@
 import base64
 
-file = open("data/abc/96371.data" , 'r')
+file = open("data/abc/22758.data" , 'r')
 string = file.read(-1)
 file.close()
 # print "file read = %s" % string
