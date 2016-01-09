@@ -1,0 +1,25 @@
+/lib64
+ vmlinuz
+ proc
+ lost+found
+ 0
+ home
+ boot
+ bin
+ var
+ etc
+ srv
+ media
+ lib
+ run
+ usr
+ dev
+ tmp
+ root
+ sys
+ opt
+ initrd.img
+ mnt
+ sbin
+ live-build
+posix
